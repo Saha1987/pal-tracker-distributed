@@ -4,5 +4,7 @@ applications:
   host: registration-pal-arindam-saha
   memory: 1G
   instances: 1
+  env:
+      MANAGEMENT_SECURITY_ENABLED: "false"
   services:
   - tracker-registration-database

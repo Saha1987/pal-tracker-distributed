@@ -95,8 +95,6 @@ jobs:
     params:
       manifest: pal-tracker/manifest-allocations.yml
       path: allocations-artifacts/allocations-server*.jar
-      environment_variables:
-              MANAGEMENT_SECURITY_ENABLED: "false"
 
 - name: deploy-backlog
   plan:
@@ -109,8 +107,6 @@ jobs:
     params:
       manifest: pal-tracker/manifest-backlog.yml
       path: backlog-artifacts/backlog-server*.jar
-      environment_variables:
-                    MANAGEMENT_SECURITY_ENABLED: "false"
 
 - name: deploy-registration
   plan:
@@ -123,8 +119,6 @@ jobs:
     params:
       manifest: pal-tracker/manifest-registration.yml
       path: registration-artifacts/registration-server*.jar
-      environment_variables:
-                    MANAGEMENT_SECURITY_ENABLED: "false"
 
 - name: deploy-timesheets
   plan:
@@ -137,5 +131,3 @@ jobs:
     params:
       manifest: pal-tracker/manifest-timesheets.yml
       path: timesheets-artifacts/timesheets-server*.jar
-      environment_variables:
-                    MANAGEMENT_SECURITY_ENABLED: "false"
