@@ -5,7 +5,7 @@ applications:
   memory: 1G
   instances: 1
   env:
-    REGISTRATION_SERVER_ENDPOINT: https://registration-pal-arindam-saha.apps.evans.pal.pivotal.io/
+    #REGISTRATION_SERVER_ENDPOINT: https://registration-pal-arindam-saha.apps.evans.pal.pivotal.io/
     MANAGEMENT_SECURITY_ENABLED: "false"
   services:
   - tracker-backlog-database
