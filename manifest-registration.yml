@@ -8,3 +8,4 @@ applications:
       MANAGEMENT_SECURITY_ENABLED: "false"
   services:
   - tracker-registration-database
+  - tracker-service-registry

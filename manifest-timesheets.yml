@@ -9,3 +9,4 @@ applications:
     MANAGEMENT_SECURITY_ENABLED: "false"
   services:
   - tracker-timesheets-database
+  - tracker-service-registry
