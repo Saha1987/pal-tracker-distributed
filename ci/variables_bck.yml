@@ -1,0 +1,18 @@
+aws-access-key-id: xxxxxxxxxxxx
+aws-secret-access-key: xxxxxxxxxxx
+aws-bucket:
+cf-api-url:
+cf-username:
+cf-password:
+cf-org:
+github-repository:
+github-private-key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIJJwIBAAKCAgEAoVaPlRyThm6MYajPVfuaU7vFtzKcEOiED23abP+KBIFmo2Zb
+  TcsTsA11UNjqDKp2FDsiiic/YJuUfhHbOh1qnG2paJZvHvg5O0WhBtdGxVEUMdDZ
+  Hvb4m67AjFA0sMNoAjVkrDOf78srm7qgLWsCyJq5VHdIxuUqd3VQ0fpW/BwBaFuz
+  w7kn1zG/gc7M+W4+TuJeWSpcRn72MEyWFr0VHvEOk2BHJ//aNWgVY4h4n7A8Q0ju
+  BZie3m6N6FEXhEAEum8kTLWGpFNJUb/E+DQVaC96Rrr4hFRGPAjULM4jYxiinzQ3
+  0c7CluOoRX2B1KgSRY8rosT1ZJPzEDqlJHzZKhoTx7y3lZ/Qftn4xbqIB+uOEPvF
+  5qqBxgC9yESvKslZtK+BdM3gks0zA==
+  -----END RSA PRIVATE KEY-----
