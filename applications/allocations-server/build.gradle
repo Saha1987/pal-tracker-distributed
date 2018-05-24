@@ -2,5 +2,4 @@ apply from: "$projectDir/../server.gradle"
 
 dependencies {
     compile project(":components:allocations")
-    compile "com.netflix.hystrix:hystrix-javanica:1.5.6"
 }

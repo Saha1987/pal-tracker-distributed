@@ -4,5 +4,4 @@ dependencies {
     compile project(":components:accounts")
     compile project(":components:projects")
     compile project(":components:users")
-    compile "com.netflix.hystrix:hystrix-javanica:1.5.6"
 }
